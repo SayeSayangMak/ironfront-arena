@@ -1,0 +1,12 @@
+{
+  "name": "ironfront-arena",
+  "private": true,
+  "version": "15.0.0",
+  "description": "Tactical browser FPS with offline bots and dedicated multiplayer",
+  "scripts": {
+    "start": "node server/server.js",
+    "check": "node --check game/game.js && node --check server/server.js",
+    "test": "node qa/test-server.cjs && node qa/ammo-security-test.cjs"
+  },
+  "engines": {"node": ">=20"}
+}
